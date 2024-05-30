@@ -13,6 +13,6 @@ This can detect objects in real time from a webcam, have the robot act according
     3. The code that moves the robot was used by converting Arduino code to Python.
     4. To move the robot, you must first obtain a SerialPort object.
     
-![image](https://github.com/BinnieJoe/NativeApp_Humanoid/assets/167211454/a4cf6e85-67ff-4a28-a71d-4a6bcda9a399)
+![image](https://github.com/BinnieJoe/NativeApp_Humanoid/assets/167211454/143f13b5-5fc8-425a-ab88-c2cea280b4be)
 ![image](https://github.com/BinnieJoe/NativeApp_Humanoid/assets/167211454/46c75db4-b65e-4b07-82ca-ed6544b74640)
 ![image](https://github.com/BinnieJoe/NativeApp_Humanoid/assets/167211454/1c852012-548c-4da7-a363-47caac10918e)
