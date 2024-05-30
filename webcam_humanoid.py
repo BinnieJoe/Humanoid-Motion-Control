@@ -47,7 +47,7 @@ class ObjectDetectionApp(QMainWindow):
         self.ser = serial.Serial('COM8', 115200)  # 포트와 속도는 환경에 맞게 설정
         pygame.mixer.init()
         time.sleep(2)
-        self.speak("로봇이 준비완료.")
+        self.speak("준비완료.")
 
     def initUI(self):
         self.ui.start_webcam_button.clicked.connect(self.start_webcam)
@@ -82,13 +82,16 @@ class ObjectDetectionApp(QMainWindow):
                     class_name = class_names[cls] if cls < len(class_names) else f"클래스 {cls}"
                     self.ui.label.setText(f"클래스: {cls} - {class_name}, confidence: {conf:.2f}")
                     self.ui.label_2.setText("")
-
+                    
+                    # 모델인식 결과에 따른 로봇의 행동과 음성을 지정
                     if class_name == 'person':
-                        self.robotAction(17)
+                        self.robotAction(23) #Motion Table에 정의된 16번동작(Defence)
                         self.speak("사람 인식")
+                        time.sleep(1)
                     elif class_name == 'bottle':
-                        self.robotAction(30)
+                        self.robotAction(25) #Motion Table에 정의된 16번동작(Back)
                         self.speak("병 인식")
+                        time.sleep(1)
 
     def display_image(self, image, label):
         if image is None or image.size == 0:
