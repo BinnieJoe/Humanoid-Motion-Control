@@ -14,5 +14,5 @@ This can detect objects in real time from a webcam, have the robot act according
     4. To move the robot, you must first obtain a SerialPort object.
     
 ![image](https://github.com/BinnieJoe/NativeApp_Humanoid/assets/167211454/143f13b5-5fc8-425a-ab88-c2cea280b4be)
-![image](https://github.com/BinnieJoe/NativeApp_Humanoid/assets/167211454/46c75db4-b65e-4b07-82ca-ed6544b74640)
+![image](https://github.com/BinnieJoe/NativeApp_Humanoid/assets/167211454/e19880fa-7bc6-44c7-a8ac-f33e65ed06bc)
 ![image](https://github.com/BinnieJoe/NativeApp_Humanoid/assets/167211454/1c852012-548c-4da7-a363-47caac10918e)
