@@ -9,7 +9,7 @@ This can detect objects in real time from a webcam, have the robot act according
 
 ## Key feature additions and improvement points are as follows
     1. To create a port that does not exist on the PC, a USB to UART converter called cp2104 was used and a driver is required. 
-    2. http://www.iamamaker.kr/ko/tutorials/cp210x-usb-to-uart-%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B2%84-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0/
+    http://www.iamamaker.kr/ko/tutorials/cp210x-usb-to-uart-%EB%93%9C%EB%9D%BC%EC%9D%B4%EB%B2%84-%EC%84%A4%EC%B9%98%ED%95%98%EA%B8%B0/
     3. The code that moves the robot was used by converting Arduino code to Python.
     4. To move the robot, you must first obtain a SerialPort object.
     
