@@ -1,5 +1,8 @@
 # Humanoid Robot Object Recognition and Response
-This can detect objects in real time from a webcam, have the robot act according to the detected object, and implement a function to notify by voice.
+This system is designed to detect objects in real time using a webcam, allowing the robot to act according to the detected objects. The object detection model used is YOLOv5s, which enables fast and accurate detection, while a Logitech webcam captures the live video feed.
+The GUI is implemented using PyQt, which allows users to visually observe the results of the object detection. Through the GUI, users can see the location and type of detected objects in real time and simulate how the robot’s behavior changes based on each object.
+To control the robot's movements, code was first written for the Arduino board, allowing the robot to perform specific actions (e.g., moving, turning, grabbing, etc.) when an object is recognized. This system integrates object detection and robot control, enabling the robot to automatically respond to recognized objects.
+With this setup, users can intuitively experience how the robot behaves based on real-time object detection and explore various applications through the convergence of object recognition technology and robotic control.
 
 ## Writing for webcam.py continued in the Webcam_NativeApp repository..
     Use PySide6 instead of PyQt5.
