@@ -1,7 +1,7 @@
 # NativeApp_Humanoid
 This can detect objects in real time from a webcam, have the robot act according to the detected object, and implement a function to notify by voice.
 
-## I continued writing webcam.py in the Wecam_NativeApp repository.
+## Writing for webcam.py continued in the Webcam_NativeApp repository..
     Use PySide6 instead of PyQt5.
     Added serial port communication function.
     Using gTTS and pygame for voice output.
