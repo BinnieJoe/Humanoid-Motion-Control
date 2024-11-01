@@ -1,4 +1,4 @@
-# NativeApp_Humanoid
+# Humanoid Robot Object Recognition and Response
 This can detect objects in real time from a webcam, have the robot act according to the detected object, and implement a function to notify by voice.
 
 ## Writing for webcam.py continued in the Webcam_NativeApp repository..
