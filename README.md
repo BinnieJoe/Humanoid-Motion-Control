@@ -4,6 +4,13 @@ The GUI is implemented using PyQt, which allows users to visually observe the re
 To control the robot's movements, code was first written for the Arduino board, allowing the robot to perform specific actions (e.g., moving, turning, grabbing, etc.) when an object is recognized. This system integrates object detection and robot control, enabling the robot to automatically respond to recognized objects.
 With this setup, users can intuitively experience how the robot behaves based on real-time object detection and explore various applications through the convergence of object recognition technology and robotic control.
 
+## Skills
+- **Utilization of PyTorch**: Using the YOLOv5s model for real-time object detection.
+- **GUI Development Based on PySide6**: The user interface is implemented using PySide6, visually displaying the results of object detection.
+- **Serial Port Communication**: Added serial port communication functionality with the robot using a CP2104 USB to UART converter. Driver installation is required, and the setup was completed through related tutorials.
+- **Voice Output Functionality**: Implemented a feature to output the results of object detection as speech using gTTS (Google Text-to-Speech service) and pygame.
+- **Robot Movement Control**: Transformed Arduino code into Python to control the robot's movements when specific objects are detected.
+
 ## Writing for webcam.py continued in the Humanoid-Motion-Control repository..
     Use PySide6 instead of PyQt5.
     Added serial port communication function.
